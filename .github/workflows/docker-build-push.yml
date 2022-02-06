@@ -20,8 +20,8 @@ build:
   - run: docker build -t varunrd/multi-nginx  ./nginx
   - run: docker build -t varunrd/multi-server ./server
   - run: docker build -t varunrd/multi-worker ./worker
-  - run: docker push varunrd/multi-client 
-  - run: docker push varunrd/multi-nginx
-  - run: docker push varunrd/multi-server
-  - run: docker push varunrd/multi-worker
+  #- run: docker push varunrd/multi-client 
+  #- run: docker push varunrd/multi-nginx
+  #- run: docker push varunrd/multi-server
+  #- run: docker push varunrd/multi-worker
 

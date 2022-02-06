@@ -11,7 +11,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-      - name: Docker login, build and push
       - run: docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
       - run: docker build -t varunrd/multi-client ./client
       - run: docker build -t varunrd/multi-nginx ./nginx

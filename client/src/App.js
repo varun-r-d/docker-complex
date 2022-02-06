@@ -17,7 +17,7 @@ function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React, via Kubernetes!!
+            Learn React, deployed using Kubernetes!!
           </a>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
